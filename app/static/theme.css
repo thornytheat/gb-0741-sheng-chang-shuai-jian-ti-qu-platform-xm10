@@ -1,0 +1,26 @@
+:root {
+  color-scheme: light;
+  --bg: #eaf0f2;
+  --rail: #dde7eb;
+  --panel: #f8fafb;
+  --panel-alt: #edf3f5;
+  --line: #bdcdd4;
+  --line-soft: #dbe5e9;
+  --ink: #192f3a;
+  --muted: #4b6471;
+  --accent: #167d91;
+  --accent-dark: #0d6071;
+  --accent-soft: #d1eaf0;
+  --ok: #286347;
+  --warn: #906117;
+  --bad: #a03d3c;
+  --noise: #ad5d36;
+  --fit: #6a5ca2;
+  --fit-soft: #e8e2f4;
+  --sans: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --bar: 52px;
+  --row: 36px;
+  --space: 18px;
+  --gap: 14px;
+}

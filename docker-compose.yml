@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "18430:8000"
+    environment:
+      DECAY_DB: /var/lib/hall-decay/measurements.sqlite3
+    volumes:
+      - measurements:/var/lib/hall-decay
+volumes:
+  measurements:
